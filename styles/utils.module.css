@@ -4,6 +4,11 @@
     font-weight: 800;
     letter-spacing: -0.05rem;
     margin: 1rem 0;
+    background: linear-gradient(to right, #2697d8, #7ed957, #ff5757);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  
 }
 
 .headingX1 {
@@ -16,7 +21,7 @@
 .headingLg {
     font-size: 1.5rem;
     line-height: 1.4;
-    margin: 1rem 0;
+    
 }
 
 .headingMd {

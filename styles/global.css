@@ -1,5 +1,7 @@
 html,
 body {
+  background-color: black;
+  color: whitesmoke;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
@@ -24,4 +26,6 @@ a:hover {
 img {
   max-width: 100%;
   display: block;
+  
 }
+
