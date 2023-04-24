@@ -13,6 +13,8 @@ export default function Layout({ children, home }) {
         <div className={styles.container}>
             <Head>
                 <link rel="icon" href="/favicon.ico" />
+                <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
+                <meta name="google" content="notranslate" key="notranslate" />
                 <meta
                     name="description"
                     content="Follow along on my coding journey!"
