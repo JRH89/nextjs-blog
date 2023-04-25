@@ -10,6 +10,7 @@ export const siteTitle = 'Jared\'s Blog';
 
 export default function Layout({ children, home }) {
     return (
+<>
         <div className={styles.container}>
             <Head>
                 <link rel="icon" href="/favicon.ico" />
@@ -67,10 +68,12 @@ export default function Layout({ children, home }) {
                     <Link href="/">← Back to home</Link>
                 </div>
             )}
-        <div classname={global.footer}>
+        
+        </div>
+
+<div classname={global.footer}>
                 <Footer />
             </div>
-        </div>
-            
+      </>      
     );
 }
