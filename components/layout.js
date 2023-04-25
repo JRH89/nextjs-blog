@@ -3,18 +3,21 @@ import Image from 'next/image';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
+import Footer from './footer';
 
 const name = 'Jared R Hooker';
-export const siteTitle = 'Next.js Sample Website';
+export const siteTitle = 'Jared\'s Blog';
 
 export default function Layout({ children, home }) {
     return (
         <div className={styles.container}>
             <Head>
                 <link rel="icon" href="/favicon.ico" />
+                <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
+                <meta name="google" content="notranslate" key="notranslate" />
                 <meta
                     name="description"
-                    content="Learn how to build a personal website using Next.js"
+                    content="Follow along on my coding journey!"
                 />
                 <meta
                     property="og:image"
@@ -64,6 +67,10 @@ export default function Layout({ children, home }) {
                     <Link href="/">← Back to home</Link>
                 </div>
             )}
+        <div classname={global.footer}>
+                <Footer />
+            </div>
         </div>
+            
     );
 }
