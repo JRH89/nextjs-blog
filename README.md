@@ -1,1 +1,1 @@
-A blog being created with Next.js
+A blog created with Next.js
