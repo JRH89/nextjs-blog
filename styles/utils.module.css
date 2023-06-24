@@ -1,56 +1,63 @@
-.heading2X1 {
-    font-size: 2.5rem;
+.heading2X1
+{
+    font-size: 2rem;
     line-height: 1.2;
     font-weight: 800;
     letter-spacing: -0.05rem;
     margin: 1rem 0;
-    background: linear-gradient(to right, #2697d8, #7ed957, #ff5757);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  
+
+
 }
 
-.headingX1 {
+.headingX1
+{
     font-size: 2rem;
-    line-height: 1,3;
+    line-height: 1, 3;
     font-weight: 800;
     letter-spacing: 1rem 0;
 }
 
-.headingLg {
+.headingLg
+{
     font-size: 1.5rem;
     line-height: 1.4;
     color: whitesmoke
 }
 
-.headingMd {
+.headingMd
+{
     font-size: 1.5rem;
     line-height: 1.5;
 }
 
-.borderCircle {
+.borderCircle
+{
     border-radius: 9999px;
 }
 
-.colorInherit {
+.colorInherit
+{
     color: inherit;
 }
 
-.padding1px {
+.padding1px
+{
     padding-top: 1px;
 }
 
-.list {
+.list
+{
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.listItem {
+.listItem
+{
     margin: 0 0 1.25rem;
 }
 
-.lightText {
+.lightText
+{
     color: #666;
 }

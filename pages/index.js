@@ -12,10 +12,10 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hi, I'm <b>Jared</b>. I'm a software engineer and game developer. This blog will be used as a way to document my coding journey while teaching myself Javascript and Python. Thanks for stopping by, feel free to reach out with suggestions or questions!</p>
+        <p>Hi, I'm <b>Jared</b>, a software engineer and game developer. This blog will be used as a way to document my coding journey while teaching myself Javascript and Python. Thanks for stopping by, feel free to reach out with suggestions or questions!</p>
         <p>
-          You can contact me on{' '}
-          <a href="https://linkedin.com/in/jaredhooker">LinkedIn</a>.
+          You can contact me here:{' '}
+          <a href="https://have-mycard.vercel.app/api/3dhrOh3i">My Card</a>.
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>

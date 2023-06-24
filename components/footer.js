@@ -1,17 +1,13 @@
-import Link from 'next/link';
+import Link from 'next/link'
 
 export default function Footer() {
   return (
-      <footer>
-    
+    <footer>
       <nav>
-        <p>
-        Created using Next.js © 2023
-        </p>
-        <Link href="https://jaredsportfolio.netlify.app">← Back to Portfolio</Link>   
+        <Link href="https://hooker-hill-studios.vercel.app">Hooker Hill Studios</Link>
       </nav>
     </footer>
-  );
+  )
 }
 
 
