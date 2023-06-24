@@ -5,7 +5,7 @@ date: "2023-06-24"
 
 # Props
 
-In the world of React, passing props between components is a fundamental concept that allows for effective communication and data sharing. Props, short for properties, enable the transfer of data from parent components to their child components. Understanding how to pass props correctly can greatly enhance your React development skills. In this blog post, we will explore the basics of passing props and provide examples to illustrate their usage.
+In the world of React, passing props between components is a fundamental concept that allows for effective communication and data sharing. Props, short for properties, enable the transfer of data from parent components to their child components. Understanding how to pass props correctly can greatly enhance your React development skills. In this blog post, we will explore the basics of passing props from parent to child components using React JS.
 
 ## What are Props?
 
